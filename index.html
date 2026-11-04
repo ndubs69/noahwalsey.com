@@ -3,94 +3,147 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Noah Walsey · AI assistants</title>
-<meta name="description" content="Noah Walsey builds AI assistants for independent insurance agencies and small businesses in Atlanta.">
-<meta property="og:title" content="Noah Walsey · AI assistants">
-<meta property="og:description" content="AI assistants for independent insurance agencies and small businesses in Atlanta.">
+<title>Noah Walsey</title>
+<meta name="description" content="AI assistants for independent agencies and small businesses. Atlanta.">
+<meta property="og:title" content="Noah Walsey">
+<meta property="og:description" content="AI assistants for independent agencies and small businesses. Atlanta.">
 <meta property="og:url" content="https://noahwalsey.com/">
 <meta property="og:image" content="https://noahwalsey.com/og-image.png">
-<meta name="theme-color" content="#09090b">
-<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="https://esm.sh/@designcodeio/threeui@1.2.0/style.css">
-<script>try{if(matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("reduce")}catch(e){}</script>
 </head>
-<body data-page="home">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="nav">
-  <a class="brand" href="index.html">Noah Walsey</a>
-  <nav class="nav-links" aria-label="Pages">
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="services.html">Services</a>
-    <a href="how-it-works.html">How it works</a>
-    <a href="about.html">About</a>
-  </nav>
-  <a class="btn accent" href="https://calendly.com/noahwalsey/free-20-minute-ai-scan" target="_blank" rel="noopener">Book a scan<span class="sr-only"> (opens in a new tab)</span></a>
-</header>
-<main id="main" class="home-main">
-  <section class="hero" aria-label="Introduction">
-    <div class="hero-fallback" aria-hidden="true"></div>
-    <div id="hero-shader" class="hero-shader" aria-hidden="true"></div>
-    <div class="hero-scrim" aria-hidden="true"></div>
-    <div class="hero-copy">
-      <h1>Noah Walsey</h1>
-      <p>AI assistants for independent agencies and small businesses.</p>
-      <div class="hero-actions">
-        <a class="btn accent" href="https://calendly.com/noahwalsey/free-20-minute-ai-scan" target="_blank" rel="noopener">Book a free AI scan<span class="sr-only"> (opens in a new tab)</span></a>
-        <a class="btn ghost" href="services.html">See what I build</a>
+<div class="page">
+  <header class="top">
+    <a class="brand" href="#home">Noah Walsey</a>
+    <div class="tablist" role="tablist" aria-label="Sections">
+      <button type="button" role="tab" id="tab-home" aria-controls="panel-home" aria-selected="true" tabindex="0" data-tab="home">Home</button>
+      <button type="button" role="tab" id="tab-services" aria-controls="panel-services" aria-selected="false" tabindex="-1" data-tab="services">Services</button>
+      <button type="button" role="tab" id="tab-how" aria-controls="panel-how" aria-selected="false" tabindex="-1" data-tab="how">How it works</button>
+      <button type="button" role="tab" id="tab-about" aria-controls="panel-about" aria-selected="false" tabindex="-1" data-tab="about">About</button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section role="tabpanel" id="panel-home" aria-labelledby="tab-home">
+      <h1>AI assistants for independent agencies and small businesses.</h1>
+      <p class="quiet">Atlanta.</p>
+      <p class="links"><a href="https://calendly.com/noahwalsey/free-20-minute-ai-scan" target="_blank" rel="noopener">Book a free AI scan</a></p>
+    </section>
+
+    <section role="tabpanel" id="panel-services" aria-labelledby="tab-services" hidden>
+      <div class="tablist sub" role="tablist" aria-label="Service groups">
+        <button type="button" role="tab" id="tab-answer" aria-controls="cat-answer" aria-selected="true" tabindex="0" data-cat="answer">Answer &amp; book</button>
+        <button type="button" role="tab" id="tab-follow" aria-controls="cat-follow" aria-selected="false" tabindex="-1" data-cat="follow">Follow-up</button>
+        <button type="button" role="tab" id="tab-signals" aria-controls="cat-signals" aria-selected="false" tabindex="-1" data-cat="signals">Lead signals</button>
       </div>
-    </div>
-  </section>
-  <section class="band" aria-labelledby="work-title">
-    <h2 id="work-title">What I set up</h2>
-    <div class="cards">
-      <article class="card" id="voice">
-        <button type="button" class="card-hit" data-open="voice">
-          <h3>Voice receptionist</h3>
-          <p>Missed calls get a text you approved, and the phone assistant stays inside your script.</p>
-        </button>
-      </article>
-      <article class="card" id="follow-up">
-        <button type="button" class="card-hit" data-open="follow-up">
-          <h3>Lead follow-up</h3>
-          <p>New leads get a short sequence until they book or ask you to stop.</p>
-        </button>
-      </article>
-      <article class="card" id="renewals">
-        <button type="button" class="card-hit" data-open="renewals">
-          <h3>Renewal reminders</h3>
-          <p>Dates at 60, 30, and 14 days become a call list and a draft.</p>
-        </button>
-      </article>
-      <article class="card" id="chief">
-        <button type="button" class="card-hit" data-open="chief">
-          <h3>Chief of Staff</h3>
-          <p>The team asks in plain words, and anything sent to a person waits for a yes.</p>
-        </button>
-      </article>
-    </div>
-    <p class="more"><a href="services.html">All services</a></p>
-  </section>
-  <section class="band cta">
-    <h2>Start with one job.</h2>
-    <a class="btn accent" href="https://calendly.com/noahwalsey/free-20-minute-ai-scan" target="_blank" rel="noopener">Book a free AI scan<span class="sr-only"> (opens in a new tab)</span></a>
-  </section>
-</main>
-<footer class="foot">
-  <div class="foot-grid">
-    <p class="foot-name">Noah Walsey<br><span>Atlanta</span></p>
-    <ul>
-      <li><a href="https://calendly.com/noahwalsey/free-20-minute-ai-scan" target="_blank" rel="noopener">Book a free AI scan</a></li>
-      <li><a href="mailto:consulting@noahwalsey.com">consulting@noahwalsey.com</a></li>
-      <li><a href="https://www.linkedin.com/in/noah-walsey-4870ba28a" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="assets/Noah_Walsey_Resume.pdf">Resume</a></li>
-    </ul>
-  </div>
-  <p class="fine">© 2026 Noah Walsey. Demos on this site are examples, not client results.</p>
-  <p class="fine">Home page background: ThreeUI Community by Meng To, MIT license.</p>
-</footer>
+
+      <div role="tabpanel" id="cat-answer" aria-labelledby="tab-answer">
+        <div class="item" id="voice" data-cat="answer">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="voice-panel">Voice receptionist</button>
+          <div class="detail" id="voice-panel" hidden>
+            <p>A missed call gets a text you already approved. The phone assistant stays inside your script.</p>
+            <p class="ex">Example: “Sorry we missed you. This is [Agency].”</p>
+          </div>
+        </div>
+        <div class="item" id="inbox" data-cat="answer">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="inbox-panel">Inbox triage</button>
+          <div class="detail" id="inbox-panel" hidden>
+            <p>Mail is labeled quote, claim, service, or junk. Claims and money wait for a person.</p>
+            <p class="ex">Example: “Can you send renewal options?” lands as a quote.</p>
+          </div>
+        </div>
+        <div class="item" id="chief" data-cat="answer">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="chief-panel">Chief of Staff</button>
+          <div class="detail" id="chief-panel" hidden>
+            <p>The team asks in plain words. Anything sent to another person waits for a yes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" id="cat-follow" aria-labelledby="tab-follow" hidden>
+        <div class="item" id="follow-up" data-cat="follow">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="follow-panel">Lead follow-up</button>
+          <div class="detail" id="follow-panel" hidden>
+            <p>New leads get a short sequence until they book or ask you to stop.</p>
+            <p class="ex">Example: day 0, day 2, then a last note.</p>
+          </div>
+        </div>
+        <div class="item" id="renewals" data-cat="follow">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="renewals-panel">Renewal reminders</button>
+          <div class="detail" id="renewals-panel" hidden>
+            <p>60, 30, and 14 days become a call list and a draft. You decide what can send.</p>
+          </div>
+        </div>
+        <div class="item" id="social" data-cat="follow">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="social-panel">Social media</button>
+          <div class="detail" id="social-panel" hidden>
+            <p>A short video posts only after you approve the clip and the caption.</p>
+          </div>
+        </div>
+        <div class="item" id="report" data-cat="follow">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="report-panel">Weekly report</button>
+          <div class="detail" id="report-panel" hidden>
+            <p>One Monday email: what came in, what is waiting, and what is unknown.</p>
+            <p class="ex">Example figures only. Not a real week.</p>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" id="cat-signals" aria-labelledby="tab-signals" hidden>
+        <div class="item" id="signal-desk" data-cat="signals">
+          <button type="button" class="item-btn" aria-expanded="false" aria-controls="signal-panel">Signal Desk</button>
+          <div class="detail" id="signal-panel" hidden>
+            <p>Watches public records, such as new licenses, permits, and funding rounds. You get a daily list, with the reason each lead is on it.</p>
+            <ul class="examples">
+              <li>Comp Clock. Example employer, renewal inside 90 days.</li>
+              <li>Fresh Raise. Example company, funding notice this month.</li>
+              <li>New Agencies. Example agency, license issued this month.</li>
+              <li>Storm Desk. Example county, hail report in the last 30 days.</li>
+            </ul>
+            <p class="ex">Example rows. Not real leads.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section role="tabpanel" id="panel-how" aria-labelledby="tab-how" hidden>
+      <ol class="steps">
+        <li><b>Scan.</b> Twenty free minutes. I’ll say if it isn’t a fit.</li>
+        <li><b>Pilot.</b> One workflow. Fixed fee, quoted after the scan.</li>
+        <li><b>Handoff.</b> You own it, or I run it.</li>
+      </ol>
+      <h2>Request a call back</h2>
+      <form id="callback">
+        <label for="cb-name">Name</label>
+        <input id="cb-name" name="name" type="text" required autocomplete="name">
+        <label for="cb-phone">Phone</label>
+        <input id="cb-phone" name="phone" type="tel" required autocomplete="tel">
+        <label for="cb-need">What you need</label>
+        <textarea id="cb-need" name="need" required></textarea>
+        <button type="submit">Request a call back</button>
+        <p class="note" id="callback-status" role="status">Opens an email to consulting@noahwalsey.com. Nothing is stored here.</p>
+      </form>
+    </section>
+
+    <section role="tabpanel" id="panel-about" aria-labelledby="tab-about" hidden>
+      <img src="assets/noah.jpg" alt="Noah Walsey" width="400" height="400">
+      <p>Risk Management at the University of Georgia, B.B.A. May 2027. I work part-time in insurance operations.</p>
+      <p class="links"><a href="assets/Noah_Walsey_Resume.pdf">Resume</a> <a href="https://www.linkedin.com/in/noah-walsey-4870ba28a" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p class="quiet">Open to roles in Atlanta, May 2027.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://calendly.com/noahwalsey/free-20-minute-ai-scan" target="_blank" rel="noopener">Book a scan</a>
+    <a href="mailto:consulting@noahwalsey.com">consulting@noahwalsey.com</a>
+    <a href="https://www.linkedin.com/in/noah-walsey-4870ba28a" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="assets/Noah_Walsey_Resume.pdf">Resume</a>
+  </footer>
+</div>
 <script src="assets/app.js" defer></script>
-<script type="module" src="assets/hero.js"></script>
 </body>
 </html>
